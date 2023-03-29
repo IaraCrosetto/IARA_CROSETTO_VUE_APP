@@ -1,0 +1,18 @@
+/* CARDS */
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
+}
+.card-link{
+    color: inherit;
+    text-decoration: none;
+}
+.card-hover {
+    transition: all 0.2s ease-in-out;
+}
+  
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.196);
+}
